@@ -1,0 +1,168 @@
+body {
+  background-color: #dddddd;
+}
+#wrapper {
+	position: relative;
+	height: auto;
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#game_title {
+	position: relative;
+	height: 40px;
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 18pt;
+}
+#game_field {
+	position: relative;
+	height: 480px;
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #AAAAFF;
+}
+#id_canvas_back {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: 1;
+}
+#id_canvas_field {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  z-index: 2;
+}
+#id_canvas_back2 {
+  position: absolute;
+  top: 60px;
+  left: 390px;
+  z-index: 1;
+}
+#id_canvas_field2 {
+  position: absolute;
+  top: 60px;
+  left: 390px;
+  z-index: 2;
+}
+#id_canvas_next {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  z-index: 3;
+}
+#id_canvas_select {
+  position: absolute;
+  top: 15px;
+  left: 210px;
+  z-index: 3;
+  background-color: #dddddd;
+}
+div.explore_area {
+  position:absolute;
+  top: 60px;
+  left: 400px;
+  height: 390px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #dddddd;
+}
+#id_canvas_history {
+}
+#note {
+	position: relative;
+	width: 640px;
+	margin-top: 15pt;
+	font-size: 12pt;
+}
+.btn {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	display: block;
+}
+.btn {
+	background: -moz-linear-gradient(top,#0099CC 0%,#006699);
+	background: -webkit-gradient(linear, left top, left bottom, from(#0099CC), to(#006699));
+	border: 2px solid #FFF;
+	color: #FFF;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: 1px 1px 1px rgba(000,000,000,0.3);
+	-webkit-box-shadow: 1px 1px 1px rgba(000,000,000,0.3);
+	text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+	width: 100px;
+	padding: 10px 0;
+}
+#btn_left{
+  position: absolute;
+  width: 50px;
+  top: 370px;
+  left: 260px;
+  z-index: 5;
+}
+#btn_right{
+  position: absolute;
+  width: 50px;
+  top: 370px;
+  left: 320px;
+  z-index: 5;
+}
+#btn_down{
+  position: absolute;
+  width: 110px;
+  top: 420px;
+  left: 260px;
+  z-index: 5;
+}
+#btn_a{
+  position: absolute;
+  width: 50px;
+  top: 320px;
+  left: 320px;
+  z-index: 5;
+}
+#btn_b{
+  position: absolute;
+  width: 50px;
+  top: 320px;
+  left: 260px;
+  z-index: 5;
+}
+#btn_for{
+  position: absolute;
+  width: 50px;
+  top: 270px;
+  left: 320px;
+  z-index: 5;
+}
+#btn_back{
+  position: absolute;
+  width: 50px;
+  top: 270px;
+  left: 260px;
+  z-index: 5;
+}
+#speed_slider{
+  position: absolute;
+  width: 110px;
+  top: 235px;
+  left: 260px;
+  z-index: 5;
+}
+#field_info{
+  position: absolute;
+  height: 70px;
+  width: 100px;
+  top: 135px;
+  left: 255px;
+  background-color: #dddddd;
+  z-index: 5;
+  padding: 10px 10px 10px 10px;
+  font-size: 16px;
+}

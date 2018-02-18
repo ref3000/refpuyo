@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<title>PuyoChartCapture</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76509422-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<p><a href="index.html">[HOME]</a></p>
+<h1>PuyoChartCapture</h1>
+<p><img src="capture_ss.png" alt="ss"></p>
+・説明</br>
+　PCの画面からぷよ譜を作成するアプリケーションです。</br>
+　ゲームのリプレイモードや動画からぷよ譜を作成出来ます。</br>
+　標準の設定で、ぷよぷよ通、ぷよぷよテトリス、ぷよぷよフィーバー（クラシック）、ぷよぷよVS、の動画からぷよ譜を作れる事を確認しています。</br>
+　設定を弄る事で、細かい調整やおそらくは他の機種への対応も可能です。</br>
+　※このアプリケーションは常に最前面で動作します。</br>
+　＜使い方＞</br>
+　１．PuyoChartCapture.exeを起動</br>
+　２．「領域選択」ボタンからウィンドウを表示し、移動やサイズ変更を行いNEXTを丁度囲みます（スクリーンショットを参考）</br>
+　３．「キャプチャ」ボタンを押すかAlt+F1でキャプチャ範囲のイメージからぷよの組を生成します</br>
+　４．３.を繰り返し、満足したら「URL生成」ボタンでクリップボードにぷよ譜をコピーします</br>
+</br>
+・補足</br>
+　ウィンドウに表示されている画像は、左から順に</br>
+　「1. キャプチャした生画像」</br>
+　「2. 1.から色相を抽出した画像（HSVモデルのH成分）」</br>
+　「3. 2.からしきい値を元にマッピングした画像」です。</br>
+　3.で面積の占める割合が一番大きな色をぷよの色として判定しています。</br>
+</br>
+・ダウンロード</br>
+<p>ver0.3 <a href="PuyoChartCapture_0.3.zip">Download</a></p>
+<p>ver0.2 <a href="PuyoChartCapture_0.2.zip">Download</a></p>
+<p>ver0.1 <a href="PuyoChartCapture_0.1.zip">Download</a></p>
+<br>
+・更新履歴</br>
+　ver0.3　　2016/4/10</br>
+　　・色の判定方法を改良。設定でしきい値を指定出来るようにした。</br>
+　　・画面更新の間隔を設定で指定できるようにした。</br>
+　　・取得したぷよ譜をウィンドウ端で自動改行するようにした。</br>
+　　・画面のちらつきを可能な限り抑えた。</br>
+</br>
+　ver0.2　　2016/4/5</br>
+　　・選択領域のみ取得するように修正。少し軽くなったかも。</br>
+    ・メインウィンドウと連動して領域選択ウィンドウも閉じるようにした。</br>
+</br>
+　ver0.1　　2016/4/4</br>
+　　・とりあえず公開。</br>
+</body>
+</html>
